@@ -18,6 +18,23 @@ This project focuses on understanding the fundamentals of computer networking, I
 
 Click here if you want to go straight to the [subnetting cheat sheet](#subnetting-cheat-sheet-video) or [special-purpose addresses](#ipv4-special-purpose-addresses)
 
+### Instructions
+Extracting files:
+```
+tar -xf net_practice.1.9.tgz
+```
+Running the training interface:
+```
+cd net_practice.1.9
+chmod +x run.sh
+./run.sh
+```
+
+Submission: Because there are 10 levels available in the training interface, you will have to submit 10
+files in your repository (one file per level). Place them at the root of your repository.
+Don’t forget to enter your login in the training interface. Export a file per level using the
+Get my config button.
+
 ## Devices
 - **Host**: a device that can act as a source or destination of network traffic.
 - **Switch**: a Layer 2 device that connects hosts within the same local network and subnet. Initially, it builds its MAC address table by learning the source address of any incoming data frame and mapping it to the receiving port. Once the table is populated, the switch identifies devices by looking up the destination MAC address of subsequent frames. This allows it to forward data directly to the correct port instead of flooding the entire network. Because it operates at the data-link layer, all connected devices must share the same subnet to communicate without a router.
@@ -137,3 +154,4 @@ Routers on the Internet will not forward packets originating from or destined fo
 - [Link-Local Addresses](https://en.wikipedia.org/wiki/Link-local_address#IPv4)
 - [Default Gateway](https://www.youtube.com/watch?v=pCcJFdYNamc)
 - [Hub, Switch, Router](https://www.youtube.com/watch?v=1z0ULvg_pW8)
+- [Routing Tables](https://www.youtube.com/watch?v=CGmTvukObOw)
