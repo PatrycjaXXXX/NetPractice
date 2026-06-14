@@ -4,6 +4,8 @@
 ### Description
 This project focuses on understanding the fundamentals of computer networking, IP addressing, and subnetting through practical configuration exercises.
 
+Note: I highly recommend *against* opening this README in Vim. This document uses Markdown tables, which look quite messy in plain text. Use VS Code Preview or online option [Markdown Live Preview](https://markdownlivepreview.com/).
+
 #### Core Concepts
 - **IP Addressing**: Structure and classification of IPv4 addresses.
 - **Subnet Masking**: Division of networks into smaller segments.
@@ -167,7 +169,7 @@ Routers on the Internet will not forward packets originating from or destined fo
 - [Hub, Switch, Router](https://www.youtube.com/watch?v=1z0ULvg_pW8)
 - [Routing Tables](https://www.youtube.com/watch?v=CGmTvukObOw)
 - [Subnet mask](https://www.wikidata.org/wiki/Q1245638)
-- [Yassine Ajagrou](https://github.com/iaceene)
+- [Yassine Ajagrou](https://github.com/iaceene) GitHub page
 
 ## How AI was used
 - [LanguageTool](https://languagetool.org/) is a tool powered by artificial intelligence (AI) and natural language processing (NLP) technology. It doesn't generate entire texts from scratch, it uses AI to check grammar, spelling, and style.
