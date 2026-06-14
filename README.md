@@ -158,7 +158,7 @@ Routers on the Internet will not forward packets originating from or destined fo
 
 ## Resources
 - [ibm TCP/IP addressing](https://www.ibm.com/docs/en/aix/7.3.0?topic=protocol-tcpip-addressing)
-- [what is TCP/IP and OSI](https://www.youtube.com/watch?v=CRdL1PcherM)
+- [what is TCP/IP and OSI layers](https://www.youtube.com/watch?v=CRdL1PcherM)
 - [Non-Routable IP Addresses](https://ipstack.com/non-routable-ip-address/)
 - [Private Networks](https://en.wikipedia.org/wiki/Private_network)
 - [Network Address Translation (NAT)](https://www.youtube.com/watch?v=wg8Hosr20yw)
