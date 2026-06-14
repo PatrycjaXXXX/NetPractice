@@ -19,6 +19,7 @@ This project focuses on understanding the fundamentals of computer networking, I
 Click here if you want to go straight to the [subnetting cheat sheet](#subnetting-cheat-sheet-video) or [special-purpose addresses](#ipv4-special-purpose-addresses)
 
 ### Instructions
+First, download the file attached to the project’s page. Then, extract the files into any folder of your choice.
 Extracting files:
 ```
 tar -xf net_practice.1.9.tgz
@@ -29,11 +30,19 @@ cd net_practice.1.9
 chmod +x run.sh
 ./run.sh
 ```
+This interface should open in your web browser:
+
+![training interface](img/Screenshot%20from%202026-06-14%2013-15-49.png)
+
+Now you can practice by entering your login in the field to use your personal configuration. Alternatively, you can use the "evaluation" tab to generate a random configuration,
+also suitable for evaluations.
 
 Submission: Because there are 10 levels available in the training interface, you will have to submit 10
 files in your repository (one file per level). Place them at the root of your repository.
 Don’t forget to enter your login in the training interface. Export a file per level using the
 Get my config button.
+
+Side note: if for some reason you are not able to use the training interface from provided .tgz file, you can use the [web version](https://iaceene.github.io/Net_Practice_42/light/) created by [Yassine Ajagrou](https://github.com/iaceene).
 
 ## Devices
 - **Host**: a device that can act as a source or destination of network traffic.
@@ -51,6 +60,8 @@ You need router to cross subnet boundries.
 When a host wants to communicate with another device, it first checks if the destination IP address is within the same subnet. This is determined by performing a bitwise AND operation between the destination IP address and the subnet mask of the host. If the result matches the network portion of the host's own IP address, then the destination is considered local, and the host will attempt to communicate directly with it. If the destination is not local, the host will send the traffic to its default gateway (usually a router) for routing to the appropriate network.
 
 CIDR defines how many leading bits of an IP address belong to the network portion. The host compares its own network prefix with the destination’s network prefix. If both prefixes *match*, the destination is **local**. If they *differ*, traffic is sent to the **default gateway**.
+
+*Subnet mask definition: number that "masks" an IP address, dividing it into a routing prefix and a host address*
 
 Example for a host with IP address `192.168.1.10` and subnet mask `255.255.255.248` (or `/29` in CIDR notation, *8 bit groups size*):
 ```
@@ -155,3 +166,10 @@ Routers on the Internet will not forward packets originating from or destined fo
 - [Default Gateway](https://www.youtube.com/watch?v=pCcJFdYNamc)
 - [Hub, Switch, Router](https://www.youtube.com/watch?v=1z0ULvg_pW8)
 - [Routing Tables](https://www.youtube.com/watch?v=CGmTvukObOw)
+- [Subnet mask](https://www.wikidata.org/wiki/Q1245638)
+- [Yassine Ajagrou](https://github.com/iaceene)
+
+## How AI was used
+- [LanguageTool](https://languagetool.org/) is a tool powered by artificial intelligence (AI) and natural language processing (NLP) technology. It doesn't generate entire texts from scratch, it uses AI to check grammar, spelling, and style.
+- [Gemini Chatbot](https://gemini.google.com/) was used to check if the information provided by me was correct, and it also generously offered me the taxi joke. For example, the table of special-purpose addresses got reviewed. As it's almost an integral part of Google, it also provided me with webpages such as [ipstack](https://ipstack.com).
+- The formatting and structuring of this README were assisted by **GitHub Copilot**.
