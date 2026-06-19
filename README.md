@@ -39,10 +39,11 @@ This interface should open in your web browser:
 Now you can practice by entering your login in the field to use your personal configuration. Alternatively, you can use the "evaluation" tab to generate a random configuration,
 also suitable for evaluations.
 
-Submission: Because there are 10 levels available in the training interface, you will have to submit 10
+#### Submission details
+Because there are 10 levels available in the training interface, you will have to submit 10
 files in your repository (one file per level). Place them at the root of your repository.
 Don’t forget to enter your login in the training interface. Export a file per level using the
-Get my config button.
+**Get my config** button.
 
 Side note: if for some reason you are not able to use the training interface from provided .tgz file, you can use the [web version](https://iaceene.github.io/Net_Practice_42/light/) created by [Yassine Ajagrou](https://github.com/iaceene).
 
@@ -157,6 +158,21 @@ Routers on the Internet will not forward packets originating from or destined fo
 | CIDR (3rd octet) | /17 | /18 | /19 | /20 | /21 | /22 | /23 | /24 |
 | CIDR (2nd octet) | /9  | /10 | /11 | /12 | /13 | /14 | /15 | /16 |
 | CIDR (1st octet) | /1  | /2  | /3  | /4  | /5  | /6  | /7  | /8 |
+
+### **OSI Model Layers (Short Note)**
+
+The **OSI (Open Systems Interconnection) Model** is a framework that describes how data is transmitted over a network. It consists of **7 layers**:
+
+![layers](img/Screenshot%20from%202026-06-19%2013-21-52.png)
+
+Mnemonic: All Poeple Seem To Need Data Processing
+1. **Physical Layer** – Transmits raw bits through cables, radio signals, and hardware.
+2. **Data Link Layer** – Handles error detection and communication between devices on the same network.
+3. **Network Layer** – Routes data packets between different networks.
+4. **Transport Layer** – Ensures reliable data transfer and error recovery.
+5. **Session Layer** – Establishes, manages, and terminates communication sessions.
+6. **Presentation Layer** – Translates, encrypts, and compresses data.
+7. **Application Layer** – Provides network services directly to user applications.
 
 ## Resources
 - [ibm TCP/IP addressing](https://www.ibm.com/docs/en/aix/7.3.0?topic=protocol-tcpip-addressing)
